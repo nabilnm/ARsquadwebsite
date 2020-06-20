@@ -1,0 +1,1048 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = B/w 320px to 479px
+*/
+@media screen and  (min-width: 320px) and (max-width: 480px) {
+    .Logo{
+        height: 6%;
+        width: 39%;
+    }
+    .Login{
+        left:55%;
+        width: 70%;
+        top:0;
+    }
+    .Download{
+        width: 95%;
+        left: 77%;
+        top:0;
+    }
+    .Button{
+        width: 19%;
+        font-size: 12px;
+    }
+   
+    .Slides{
+        position: flex;
+        background-size: cover;
+       }
+       .SliderText{
+        width: 75%;
+        height: 20%;
+        left: 24%;
+        top: 55%;
+        }
+        .Title h1{
+            width: 100%;
+            font-size: 11.5px;
+            margin-right: 10%;
+            margin-top: 1.5%;
+        }
+        .Title p{
+            position: flex;
+            width: 100%;
+            font-size: 11.5px;
+            margin-bottom: 1.5%;
+        }
+        .TitleButton{
+            width: 100%;
+            height: auto;
+            position: flex;
+            font-size: 11.5px;
+            top:80%
+        }
+        .button2{
+            width: 36%;
+            left: 62%;
+            top: 77%
+        }
+  
+        nav{
+            position: absolute;
+            border: none;
+            height: 80%;
+            width: 100%;
+            top: 0%;
+        }
+        .nav-links{
+            position: absolute;
+            height: 10vh;
+            background-color: #7878788e;
+            border: solid 2px #0000008e;
+            top:3vh;
+            width: 100%;
+            transform:translateX(100%);
+            transition: transform 0.5s ease-in;
+            border-radius: 16px;
+            z-index: 2;
+        }
+        .nav-links li{
+            opacity: 0;
+            display: inline;
+            margin: auto;
+            padding-left:2px ;
+        }
+    .burger{
+        display: block;
+        width: 10%;
+        margin-left: 91%;
+        cursor: pointer;
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+    @keyframes navlinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+    
+    .toggle .line2{
+        opacity: 0;
+    }
+    
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px,-6px);
+    }
+    .nav-links a{
+        font-size: 11px;
+    }
+    .nav-links a:hover{
+        display:inline-block;
+        background:rgba(207, 207, 207, 0.411);
+        border-radius: 10px;
+        
+    }
+    .main{
+        top:100%;
+        width: 87%;
+        left: 8%;
+        height: 100%;
+    }
+    .WhatWeDo h5{
+        top:13%;
+        left: 10px;
+    }
+    .omschrijving{
+        width: 57%;
+        left: 2%;
+        top:20%;
+    }
+    .omschrijving p, h4{
+        font-size: 12px;
+        margin-right: 14px;
+    }
+    .image{
+        width: 32%;
+        height: 30%;
+        top: 15%;
+        left: 62%;
+    }
+    .fotoObjective{
+        bottom:40%;
+    }
+    .TheApp h5{
+        width: 100%;
+        left: 42%;
+    }
+    .omschrijving1{
+        width: 55%;
+        right: 10px;
+    }
+    .omschrijving1 p{
+        font-size: 12px;
+    }
+    .image1{
+        width: 30%;
+        height: 30%;
+        top:60%;
+        right:65%;
+    }
+    .Button3{
+    display: flex;
+    width: 55%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 6px;
+    top: 50%;
+    }
+    .footer{
+        display: flex;
+        top:200%;
+        height: 20%;
+        }
+        .lijst1{
+            left:15%;
+        }
+        .lijst1 a{
+         font-size: 7px;
+        }
+        .lijst2{
+            left:32%;
+        }
+        .lijst2 a{
+         font-size: 7px;
+         }
+        .lijst3{
+            left: 50%
+        }
+        .lijst3 a{
+         font-size: 7px;
+        }
+        .lijst5{
+            left: 79%;
+        }
+        .lijst5 a{
+         font-size: 7px;
+        }
+        .lijst5 p{
+            font-size: 7px;
+        }
+        .twitter{
+            left: 25.5%;
+            top:86%
+        }
+        .instagram{
+            left: 35.5%;
+            top:86%
+        }
+        .Linkedin{
+            left:49.5%;
+            top:86%;
+        }
+        .facebook{
+            left:61%;
+            top:86%
+        }
+        .AR{
+            font-size: 9px;
+        }
+        .Android{
+         width: 10%;
+         left:88%;
+         top: 66%
+     }
+        }
+        /* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 481px to 767px
+*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .Header{
+        position: absolute;
+        height:4%;
+        width: 100%;
+        background-color:  rgba(255, 255, 255, 0.054);}
+    .Logo{
+        width: 35%;
+    }
+    .Login{
+        left:55%;
+        width: 80%;
+    }
+    .Download{
+        left:78%;
+        width: 90%;
+       margin-top: 0.5%;
+    }
+ .Button{
+        width:18%;
+    }
+   .SliderText{
+   width:80%;
+   height:15%;
+   left:19%;
+   top:50%;
+   }
+   .Title h1{
+       font-size: 20px;
+   }
+   .Title p{
+       font-size: 12.5px;
+   }
+   .TitleButton{
+       font-size: 16px;
+       top:80%
+   }
+   .button2{
+       width: 30%;
+       left:69%;
+   }
+   .main{
+       top:100%;
+       height:100%;
+   }
+
+nav{
+    position: absolute;
+    border:none;
+    height: 80%;
+    width: 100%;
+    top: 0%;
+}
+.nav-links{
+    position: absolute;
+    right: 0px;
+    height: 8vh;
+    background-color: #7878788e;
+    border: solid 2px #0000008e;
+    top:5vh;
+    width: 100%;
+    transform:translateX(100%);
+    transition: transform 0.5s ease-in;
+    border-radius: 16px;
+    z-index: 2;
+}
+.nav-links li{
+    opacity: 0;
+}
+
+.burger{
+    display: block;
+    width: 10%;
+    margin-left: 91%;
+    cursor: pointer;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navlinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.nav-links a{
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav-links a:hover{
+    display: block;
+    background:rgba(207, 207, 207, 0.411);
+    border-radius: 10px;
+    
+}
+.main{
+    width: 80%;
+    left: 12%;
+}
+   .WhatWeDo{
+    position: flex;
+}
+.WhatWeDo h5{
+    top:13%;
+    left: 10px;
+}
+.omschrijving{
+    width: 55%;
+    left: 10px;
+    top:20%;
+}
+.omschrijving p{
+    font-size: 13.5px;
+}
+.image{
+    width:35%;
+    height: 30%;
+   top:20%;
+   left:60%;
+}
+
+.TheApp{
+    display: flex;
+}
+.TheApp h5{
+    width: 100%;
+    left: 42%;
+    top: 63%;
+}
+.omschrijving1{
+    width: 55%;
+    right: 10px;
+    top: 70%;
+}
+.omschrijving1 p{
+    font-size: 13.5px;
+}
+.image1{
+    width:33%;
+    height: 30%;
+    top:65%;
+    right:65%;
+}
+.Button3{
+    width: 42%;
+    font-size: 15px;
+    top:50%;
+}
+  
+    .footer{
+   display: flex;
+   top:200%;
+   height: 20%;
+   }
+   .lijst1{
+       left:3%;
+       
+   }
+   .lijst1 a{
+    font-size: 10px;
+   }
+   .lijst2{
+       left:22%;
+   }
+   .lijst2 a{
+    font-size: 10px;
+}
+
+   .lijst3{
+    left:45%;
+   }
+   .lijst3 a{
+    font-size: 10px;
+   }
+   .lijst5{
+       left: 70%;
+   }
+   .lijst5 a, p{
+    font-size: 10px;
+   }
+   .twitter{
+       left:23.5%;
+       top:84%;
+   }
+   .instagram{
+       left:35.5%;
+       top:84%;
+   }
+   .Linkedin{
+    top:84%;
+   }
+   .facebook{
+       left:66%;
+       top:84%;
+   }
+   .AR{
+       top: 84%;
+   }
+   .Android{
+    width: 8%;
+    left:88%;
+    top: 72%;
+}
+
+     }
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+    */
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .Header{
+            position: absolute;
+            height:4%;
+            width: 100%;
+            background-color:  rgba(149, 41, 41, 0.054);}
+        .Logo{
+            width: 25%;
+        }
+        .Button{
+            width: 11%;
+        }
+        .Login{
+            left: 67%;
+            width: 80%;
+        }
+        .Download{
+            left: 84%;
+            width: 90%;
+            margin-top: 0.2%;
+         }
+          
+    
+        .SliderText{
+            width:70%;
+            height:15%;
+            left:29%;
+            top:50%;
+        }
+        .Title h1{
+            font-size: 25px;
+        }
+        .Title p{
+            font-size: 15px;
+        }
+        .TitleButton{
+            font-size: 16px;
+            top:80%
+        }
+        
+        .button2{
+            width: 20%;
+            left:78%;
+        }        
+        nav{
+            position: absolute;
+            border:none;
+            height: 100%;
+            width: 100%;
+            top: 0%;
+        }
+        .nav-links{
+            position: absolute;
+            right: 0px;
+            height: 10vh;
+            background-color: #7878788e;
+            border: solid 2px #7878788e;
+            top:3vh;
+            transform:translateX(100%);
+            transition: transform 0.5s ease-in;
+            border-radius: 10px;
+            z-index: 2;
+        }
+        .nav-links li{
+            opacity: 0;
+            width: 100%;
+            margin: 0%;
+            display: block;
+            letter-spacing: 0;
+        }
+        .nav-links a{
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 900;
+        }
+        
+        .burger{
+            display: block;
+            width: 10%;
+            margin-left: 91%;
+            cursor: pointer;
+        }
+        .nav-active{
+            transform: translateX(0%);
+        }
+        @keyframes navlinkFade{
+            from{
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to{
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        
+        }
+        .toggle .line1{
+            transform: rotate(-45deg) translate(-5px,6px);
+        }
+        
+        .toggle .line2{
+            opacity: 0;
+        }
+        
+        .toggle .line3{
+            transform: rotate(45deg) translate(-5px,-6px);
+        }
+    
+        .nav-links a:hover{
+            display: block;
+            background:rgba(207, 207, 207, 0.411);
+            border-radius: 10px;
+            
+        }
+        .main{
+            width: 80%;
+            left: 12%;
+        }
+        .WhatWeDo h5{
+            top:9%;
+            left: 2%;
+        }
+        .omschrijving{
+            width: 55%;
+            left: 2%;
+            top:15%;
+        }
+        .omschrijving p{
+            font-size:17px;
+        }
+        .image{
+           width:35%;
+           height: 25%;
+           top:10%;
+           left:60%;
+        }
+        .TheApp{
+            position: flex;
+        }
+        .TheApp h5{
+            width: 100%;
+            left: 43%;
+        }
+        .omschrijving1{
+            width: 55%;
+            right: 10px;
+        }
+        .omschrijving1 p{
+            font-size: 17px;
+        }
+        .image1{
+            width:35%;
+            height: 25%;
+            top:60%;
+        }
+        
+        .Button3{
+            width: 35%;
+            font-size: 18px;
+            top:50%;
+        }
+
+        .footer{
+            display: flex;
+            top:250%;
+            height:20%;
+        }
+        .lijst1{
+            left:12%;
+            
+        }
+        .lijst1 a{
+         font-size: 12px;
+        }
+        .lijst2{
+            left:32%;
+        }
+        .lijst2 a{
+         font-size: 12px;
+                    }
+        .lijst3{
+         left:55%;
+        }
+        .lijst3 a{
+         font-size: 12px;
+        }
+        .lijst5{
+            left: 80%;
+        }
+        .lijst5 a, p{
+         font-size: 12px;
+        }
+        .twitter{
+            left:35.5%;
+            top: 88%;
+        }
+        .instagram{
+           left:42.5%;
+           top: 88%;
+        }
+        .Linkedin{
+            left:53%;
+            top:88%;
+        }
+        .facebook{
+            left:62%;
+            top: 88%;
+        }
+        .AR{
+            top: 88%;
+        }
+        .Android{
+         top: 64%;
+         width: 8%;
+         left:90%;
+     }
+    }
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    */
+      @media only screen and  (min-width: 1025px) and (max-width: 1280px) {
+        .Header{
+            position: absolute;
+            height:4%;
+            width: 100%;
+            background-color:  rgba(255, 255, 255, 0.054);}
+        .Logo{
+            width: 20%;
+        }
+        .Button{
+            width: 10%;
+        }
+        .Login{
+            left: 73%;
+            width: 60%;
+        }
+        .Download{
+            width: 80%;
+            left: 87%;
+            margin-top: 0.2%;
+         }
+          .SliderText{
+            display:flex;
+            left:49.5%;
+        }
+        .Title h1{
+            font-size: 23px;
+        }
+        .Title p{
+            font-size: 15px;
+        }
+        .TitleButton{
+            font-size: 16px;
+            top:80%
+        }
+        
+        .button2{
+            display: flex;
+            width:70%;
+            left:87%;
+        }
+        .main{
+            left: 12%;
+            width: 80%;
+            top:100%;
+            height:100%;
+        }
+        nav{
+            border: solid rgb(0, 0, 0) 2px;
+            height: 12%;
+            width: 100%;
+            top: 0%;
+        }
+    
+        .nav-links li{
+            display: inline-block;
+            line-height: 70px;
+        }
+        .nav-links a{
+            font-weight: 200;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 22px;
+            color: black;
+            padding: 0 20px;
+        }
+        .nav-links a:hover{
+            display: block;
+            background:rgba(207, 207, 207, 0.411);
+            border-radius: 10px;
+            
+        }
+         .WhatWeDo{
+            display:flex;
+        }
+        .WhatWeDo h5{
+            top:20%;
+            left: 2%;
+        }
+        .omschrijving{
+            width: 55%;
+            left: 2%;
+            top:27%;
+        }
+        .omschrijving p{
+            font-size: 17px;
+        }
+        .image{
+           width:31%;
+           height: 35%;
+           top:22%;
+           left:65%;
+        }
+        .TheApp{
+            display:flex;
+        }
+        .TheApp h5{
+            width: 100%;
+            left: 40%;
+        }
+        .omschrijving1{
+            width: 55%;
+            right: 10px;
+            left: 40%;
+        }
+        .omschrijving1 p{
+            font-size: 17px;
+        }
+        .image1{
+           width:31%;
+           height: 35%;
+            top:58%;
+            left: 2%;
+        }
+        
+        .Button3{
+            display:flex;
+            width:25%;
+            font-size: 18px;
+            top:50%;
+            padding-left: 4%;
+        }
+        .footer{
+            top:200%;
+            height:25%;
+        }
+        .lijst1{
+            left:13%;
+            
+        }
+        .lijst1 a{
+         font-size: 12px;
+        }
+        .lijst2{
+            left:40%;
+        }
+        .lijst2 a{
+         font-size: 12px;
+        }
+        .lijst3{
+         left:65%;
+        }
+        .lijst3 a{
+         font-size: 12px;
+        }
+        .lijst5{
+            left:85%;
+        }
+        .lijst5 a, p{
+         font-size: 12px;
+        }
+        .twitter{
+            left:37.5%;
+            top: 90%;
+        }
+        .instagram{
+            left:45.5%;
+            top: 90%;
+        }
+        .Linkedin{
+            left:55%;
+            top: 90%;
+        }
+        .facebook{
+            left:63%;
+            top: 90%;
+        }
+        .AR{
+            top:90%;
+        }
+        .Android{
+         width: 5%;
+         left:95%;
+         top: 73%;
+        }
+        
+      }
+
+      /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    .Logo{
+        height: 5%;
+    }
+    .Header{
+        height: 3.5%;
+        width: 100%;
+        background-color:  rgba(255, 255, 255, 0.054);
+    }
+    .Button{
+        width: 10%;
+    }
+    .Login{
+        left: 74%;
+    }
+    .Download{
+        left: 87%;
+        margin-top: 0.2%;
+     }
+
+     nav{
+        position: absolute;
+        border: solid rgb(0, 0, 0) 1.5px;
+        height: 9%;
+        width: 100%;
+        bottom: 91%;
+        background-color: white;
+    }
+    .nav-links{
+      display: flex;
+      justify-content: space-around;
+      margin-left: 0;
+      margin-top: 3%;
+      width: 100%;
+    }
+    .nav-links li{
+       list-style: none;
+    
+    }
+    .nav-links a{
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-size: 30px;
+        color: black;
+    }
+    .nav-links a:hover{
+        display:inline-block;
+        background:rgba(207, 207, 207, 0.411);
+        border-radius: 10px;
+        
+    }
+    .burger{
+        display: none;
+        cursor: pointer;
+    }
+    
+    .burger div{
+        width:15px;
+        height:3px;
+         background-color: #7878788e;
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+    .Slides{
+   display: flex;
+   background-size: cover;
+ }
+ .SliderText{
+   display:flex;
+   left:49.5%;
+}
+    .Title h1{
+   font-size: 25px;
+    }
+    .Title p{
+   font-size: 20px;
+    }
+.TitleButton{
+   font-size: 16px;
+   top:80%
+}
+.button2{
+    width: 10%;
+}
+
+.WhatWeDo{
+    display:flex;
+}
+.WhatWeDo h5{
+    top:20%;
+    left: 2%;
+    font-size: 35px;
+}
+.omschrijving{
+    width: 55%;
+    left: 2%;
+    top:27%;
+}
+.omschrijving p{
+    font-size: 18px;
+}
+.image{
+    width: 38%;
+   top:18%;
+   left:60%;
+}
+.TheApp{
+    display:flex;
+}
+.TheApp h5{
+    width: 100%;
+    left: 42.5%;
+    font-size: 35px;
+}
+.omschrijving1{
+    width: 55%;
+    right: 10px;
+    left: 43%;
+}
+.omschrijving1 p{
+    font-size: 18px;
+}
+.image1{
+    top:58%;
+    left: 2%;
+}
+.Button3{
+    width: 20%;
+}
+.footer{
+    top:250%;
+    height:25%;
+}
+.lijst1{
+    left:20%;
+    
+}
+.lijst1 a{
+    font-size: 10px;
+}
+.lijst2{
+    left:35%;
+}
+.lijst2 a{
+    font-size: 10px;
+}
+.lijst3{
+ left:55%;
+}
+.lijst3 a{
+    font-size: 10px;
+}
+.lijst5{
+    left:75%;
+   }
+.lijst5 p {
+ font-size: 10px;
+}
+.twitter{
+    left:41.2%;
+    top: 90%;
+}
+.instagram{
+    left:44.5%;
+    top: 90%;
+}
+.Linkedin{
+    left:49.2%;
+    top: 90%;
+}
+.facebook{
+    left:53.2%;
+    top: 90%;
+}
+.Android{
+ width: 4%;
+ left:95%;
+ top: 70%;
+}
+  }

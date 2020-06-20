@@ -1,0 +1,879 @@
+@media screen and  (min-width: 320px) and (max-width: 480px) {
+    .Header{
+        position: absolute;
+        height:5%;
+        width: 100%;
+        background-color:  rgba(149, 41, 41, 0.054);    
+    }
+    .Logo{
+        height: 5%;
+        width: 39%;
+        left: 1%;
+    }
+    .Login{
+        left:60%;
+        width: 80%;
+        top: 0.5%;
+    }
+    .Download{
+        left:79%;
+        width: 94%;
+        top: 0.5%;
+    }
+ .Button{
+        width:22%;
+    }
+    
+nav{
+    position: absolute;
+    border:none;
+    height: 80%;
+    width: 100%;
+    top: 4%;
+    background:none;
+}
+.nav-links{
+    position: absolute;
+    right: 0px;
+    height: 7vh;
+    background-color: #7878788e;
+    border: solid 2px #0202028e;
+    top:5vh;
+    width: 100%;
+    transform:translateX(100%);
+    transition: transform 0.5s ease-in;
+    border-radius: 16px;
+    z-index: 2;
+}
+.nav-links li{
+    opacity: 0;
+    display: inline;
+    margin: auto;
+    padding-left:2px ;
+}
+.nav-links a{
+    font-size: 11px;
+}
+.burger{
+    display: block;
+    width: 10%;
+    margin-left: 94.2%;
+    cursor: pointer;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navlinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.nav-links a:hover{
+    display: block;
+    background:rgba(207, 207, 207, 0.411);
+    border-radius: 10px;
+    
+}
+.main{
+    top:5%;
+    width: 87%;
+    left: 8%;
+    height: 75%;
+}
+.title {
+    left: 23%;
+    font-size: 25px;
+}
+
+.Interseted {
+    top: 15%;
+    width: 100%;
+}
+.Interseted h5{
+    font-size: 20px;
+}
+.omschrijving{
+    width: 62%;
+    left: 2%;
+    height: 60%;
+    top: 30%;
+    font-size: 20px;
+}
+.Foto{
+    width: 40%;
+    left: 59%;
+    top: 29%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.315)};
+
+.SocialMedia {
+    left:7%;
+}
+.SocialMedia h5 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.omschrijving1 {
+    left: 1%;
+    width: 100%;
+    height: 17%;
+    top: 71%;
+}
+.omschrijving1 img{
+    width: 70px;
+    margin:0 0 0 5px;
+}
+    .footer{
+        display: flex;
+        top:80%;
+        height: 20%;
+        }
+        .lijst1{
+            left:15%;
+        }
+        .lijst1 a{
+         font-size: 7px;
+        }
+        .lijst2{
+            left:32%;
+        }
+        .lijst2 a{
+         font-size: 7px;
+         }
+        .lijst3{
+            left: 50%
+        }
+        .lijst3 a{
+         font-size: 7px;
+        }
+        .lijst5{
+            left: 79%;
+        }
+        .lijst5 a{
+         font-size: 7px;
+        }
+        .lijst5 p{
+            font-size: 7px;
+        }
+        .twitter{
+            left: 25.5%;
+            top:86%
+        }
+        .instagram{
+            left: 35.5%;
+            top:86%
+        }
+        .Linkedin{
+            left:49.5%;
+            top:86%;
+        }
+        .facebook{
+            left:61%;
+            top:86%
+        }
+        .AR{
+            font-size: 9px;
+        }
+        .Android{
+         width: 10%;
+         left:88%;
+         top: 66%
+     }
+                }
+        /* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 481px to 767px
+*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .Header{
+        position: absolute;
+        height:4%;
+        width: 100%;
+        background-color:  rgba(149, 41, 41, 0.054);    
+    }
+    .Logo{
+        height: 5%;
+        width: 33%;
+        left: 1%;
+    }
+    .Login{
+        left:65%;
+        width: 80%;
+        top: 0.5%;
+    }
+    .Download{
+        left:83%;
+        width: 90%;
+        top: 0.5%;
+    }
+ .Button{
+        width:18%;
+    }
+    
+nav{
+    position: absolute;
+    border:none;
+    height: 80%;
+    width: 100%;
+    top: 4%;
+    background:none;
+}
+.nav-links{
+    position: absolute;
+    right: 0px;
+    height: 7vh;
+    background-color: #7878788e;
+    border: solid 2px #0000008e;
+    top:5vh;
+    width: 100%;
+    transform:translateX(100%);
+    transition: transform 0.5s ease-in;
+    border-radius: 50px;
+    z-index: 2;
+}
+.nav-links li{
+    opacity: 0;
+}
+.burger{
+    display: block;
+    width: 10%;
+    margin-left: 95%;
+    cursor: pointer;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navlinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.nav-links a{
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.nav-links a:hover{
+    display: block;
+    background:rgba(207, 207, 207, 0.411);
+    border-radius: 10px;
+    
+}
+.main{
+    top:4%;
+    width: 87%;
+    left: 8%;
+    height: 100%;
+}
+.title {
+    left: 23%;
+    font-size: 40px;
+}
+.Interseted {
+    top: 15%;
+    width: 100%;
+}
+.Interseted h5{
+    font-size: 28px;
+}
+.omschrijving{
+    width: 62%;
+    left: 2%;
+    height: 60%;
+    top: 30%;
+    font-size: 25px;
+}
+.Foto{
+    position: absolute;
+    width: 40%;
+    left: 57%;
+    top: 29%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.315)};
+
+.SocialMedia {
+    position: absolute;
+    width: 100%;
+    top: 58%;
+    left: 0%;
+}
+.SocialMedia h5 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.omschrijving1 {
+    text-align: center;
+    width: 100%;
+    height: 17%;
+    top: 71%;
+}
+.omschrijving1 img{
+    width: 70px;
+    margin:0 0 0 5px;
+}
+ .footer{
+   top:104%;
+   height: 20%;
+   }
+   .lijst1{
+       left:10%;
+   }
+   .lijst1 a{
+    font-size: 8px;
+   }
+   .lijst2{
+       left:32%;
+   }
+   .lijst2 a{
+    font-size: 8px;
+}
+   .lijst3{
+    left:55%;
+   }
+   .lijst3 a{
+    font-size: 8px;
+   }
+   .lijst5{
+       left: 77%;
+       top:0%;
+   }
+   .lijst5 a, p{
+    font-size: 8px;
+   }
+   .twitter{
+       left:23.5%;
+       top:84%;
+   }
+   .instagram{
+       left:35.5%;
+       top:84%;
+   }
+   .Linkedin{
+    top:84%;
+   }
+   .facebook{
+       left:66%;
+       top:84%;
+   }
+   .AR{
+       top: 84%;
+   }
+   .Android{
+    width: 8%;
+    left:88%;
+    top: 72%;
+}
+     }
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+    */
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .Header{
+            position: absolute;
+            height:4%;
+            width: 100%;
+            background-color:  rgba(149, 41, 41, 0.054);    
+        }
+        .Logo{
+            height: 5%;
+            width: 21%;
+            left:1%;
+        }
+        .Login{
+            left:65%;
+            width: 80%;
+            top: 0.5%;
+        }
+        .Download{
+            left:83%;
+            width: 90%;
+            top: 0.5%;
+        }
+     .Button{
+
+            width:18%;
+        }
+        
+        nav{
+            position: absolute;
+            border:none;
+            height: 100%;
+            width: 100%;
+            top: 4%;
+            background:none;
+        }
+        .nav-links{
+            position: absolute;
+            right: 0px;
+            height: 7vh;
+            background-color: #7878788e;
+            border: solid 2px #0000008e;
+            top:5vh;
+            width: 100%;
+            transform:translateX(100%);
+            transition: transform 0.5s ease-in;
+            border-radius: 50px;
+            z-index: 2;
+        }
+        .nav-links li{
+            opacity: 0;
+            width: 100%;
+            margin: 1%;
+            display: block;
+        }
+        .nav-links a{
+            font-size: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .burger{
+            display: block;
+            width: 10%;
+            margin-left: 95%;
+            cursor: pointer;
+        }
+        .nav-active{
+            transform: translateX(0%);
+        }
+        @keyframes navlinkFade{
+            from{
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to{
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+        
+        .toggle .line1{
+            transform: rotate(-45deg) translate(-5px,6px);
+        }
+        
+        .toggle .line2{
+            opacity: 0;
+        }
+        
+        .toggle .line3{
+            transform: rotate(45deg) translate(-5px,-6px);
+        }
+        .nav-links a{
+            font-size: 15px;
+        }
+        .nav-links a:hover{
+            display: block;
+            background:rgba(109, 109, 109, 0.411);
+            border-radius: 20px;
+            
+        }
+    .main{
+        top:4%;
+        width: 87%;
+        left: 8%;
+        height: 102%;
+    }
+    .title {
+        left: 23%;
+        font-size: 40px;
+    }
+    .Interseted {
+        top: 14%;
+        width: 100%;
+    }
+    .Interseted h5{
+        font-size: 35px;
+    }
+    .omschrijving{
+        width: 62%;
+        left: 2%;
+        height: 60%;
+        top: 30%;
+        font-size: 35px;
+    }
+    .Foto{
+        position: absolute;
+        width: 35%;
+        left: 57%;
+        top: 22%;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.315)};
+    
+    .SocialMedia {
+        position: absolute;
+        width: 100%;
+        top: 58%;
+        left: 0%;
+    }
+    .SocialMedia h5 {
+        text-transform: uppercase;
+        font-size: 35px;
+    }
+    .omschrijving1 {
+        text-align: center;
+        width: 100%;
+        height: 17%;
+        top: 71%;
+    }
+    .omschrijving1 img{
+        width: 70px;
+        margin:0 0 0 5px;
+    }
+     .footer{
+       top:106%;
+       height: 22%;
+       }
+       .lijst1{
+           left:10%;
+       }
+       .lijst1 a{
+        font-size: 8px;
+       }
+       .lijst2{
+           left:32%;
+       }
+       .lijst2 a{
+        font-size: 8px;
+    }
+       .lijst3{
+        left:55%;
+       }
+       .lijst3 a{
+        font-size: 8px;
+       }
+       .lijst5{
+           left: 77%;
+           top:0%;
+       }
+       .lijst5 a, p{
+        font-size: 8px;
+       }
+       .twitter{
+           left:23.5%;
+           top:87%;
+       }
+       .instagram{
+           left:35.5%;
+           top:87%;
+       }
+       .Linkedin{
+        top:87%;
+       }
+       .facebook{
+           left:66%;
+           top:87%;
+       }
+       .AR{
+           top: 87%;
+       }
+       .Android{
+        width: 8%;
+        left:88%;
+        top: 66%;
+    }
+    }
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    */
+      @media only screen and  (min-width: 1025px) and (max-width: 1280px) {
+        .Header{
+            position: absolute;
+            height:4%;
+            width: 100%;
+            background-color:  rgba(149, 41, 41, 0.054);    
+        }
+        .Logo{
+            height: 5%;
+            width:20%;
+            left:1%;
+        }
+        .Login{
+            left:75%;
+            width: 60%;
+            top: 0.5%;
+        }
+        .Download{
+            left:87%;
+            width: 60%;
+            top: 0.5%;
+        }
+     .Button{
+
+            width:18%;
+        }
+        
+        nav{
+            border: solid rgb(0, 0, 0) 2px;
+            height: 13%;
+            width: 100%;
+            top: 4%;
+        }
+        .nav-links li{
+            display: inline-block;
+            line-height: 70px;
+        }
+        .nav-links a{
+            font-weight: 200;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 30px;
+            color: black;
+            padding: 0 35px;
+        }
+        .nav-links a:hover{
+            display: block;
+            background:rgba(207, 207, 207, 0.411);
+            border-radius: 10px;
+            
+        }
+    .main{
+        top:17%;
+        width: 87%;
+        left: 8%;
+        height: 102%;
+    }
+    .title {
+        left: 23%;
+        font-size: 40px;
+    }
+
+.Interseted {
+    top: 15%;
+    width: 100%;
+}
+.Interseted h5{
+    font-size: 35px;
+}
+.omschrijving{
+    width: 62%;
+    left: 2%;
+    height: 60%;
+    top: 30%;
+    font-size: 35px;
+}
+.Foto{
+    position: absolute;
+    width: 35%;
+    left: 57%;
+    top: 22%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.315)};
+
+.SocialMedia {
+    position: absolute;
+    width: 100%;
+    top: 58%;
+    left: 0%;
+}
+.SocialMedia h5 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.omschrijving1 {
+    text-align: center;
+    width: 100%;
+    height: 17%;
+    top: 71%;
+}
+.omschrijving1 img{
+    width: 70px;
+    margin:0 0 0 5px;
+}
+     .footer{
+       top:119%;
+       height: 25%;
+       }
+       .lijst1{
+           left:10%;
+       }
+       .lijst1 a{
+        font-size: 8px;
+       }
+       .lijst2{
+           left:32%;
+       }
+       .lijst2 a{
+        font-size: 8px;
+    }
+       .lijst3{
+        left:55%;
+       }
+       .lijst3 a{
+        font-size: 8px;
+       }
+       .lijst5{
+           left: 77%;
+           top:0%;
+       }
+       .lijst5 a, p{
+        font-size: 8px;
+       }
+       .twitter{
+           left:23.5%;
+           top:87%;
+       }
+       .instagram{
+           left:35.5%;
+           top:87%;
+       }
+       .Linkedin{
+        top:87%;
+       }
+       .facebook{
+           left:66%;
+           top:87%;
+       }
+       .AR{
+           top: 87%;
+       }
+       .Android{
+        width: 8%;
+        left:88%;
+        top: 66%;
+    }
+      }
+
+      /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    .Logo{
+        height: 5%;
+    }
+    .Header{
+        height: 3.5%;
+        width: 100%;
+        background-color:  rgba(255, 255, 255, 0.054);
+    }
+    .Button{
+        width: 10%;
+    }
+    .Login{
+        left: 86%;
+    }
+    .Download{
+        left: 92%;
+      
+     }
+    .nav-links a{
+        font-size: 30px;
+        padding-left: 2px;
+    }
+  
+.Interseted h5{
+    font-size: 45px;
+}
+.omschrijving{
+    left: 2%;
+    top:30%;
+}
+.omschrijving H6{
+    padding: 10px;
+    font-size: 20px;
+}
+.Foto{
+   top:25%;
+   left:48%;
+}
+
+.SocialMedia h5{
+    font-size: 35px;
+}
+.omschrijving1{
+    top:75%;
+}
+.omschrijving1 img{
+padding-left: 100px;
+}
+.FotoWebAPP{
+    top:64%;
+    left: 64%;
+}
+.Button4{
+    top: 35%;
+    width: 40%;
+}
+.footer{
+    top:163%;
+    height:25%;
+}
+.lijst1{
+    left:20%;
+    
+}
+.lijst1 a{
+    font-size: 10px;
+}
+.lijst2{
+    left:35%;
+}
+.lijst2 a{
+    font-size: 10px;
+}
+.lijst3{
+ left:55%;
+}
+.lijst3 a{
+    font-size: 10px;
+}
+.lijst5{
+    left:75%;
+   }
+.lijst5 p {
+ font-size: 10px;
+}
+.twitter{
+    left:41.2%;
+    top: 90%;
+}
+.instagram{
+    left:44.5%;
+    top: 90%;
+}
+.Linkedin{
+    left:49.2%;
+    top: 90%;
+}
+.facebook{
+    left:53.2%;
+    top: 90%;
+}
+.Android{
+ width: 5%;
+ left:95%;
+ top: 70%;
+}
+  }

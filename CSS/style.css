@@ -1,0 +1,387 @@
+/*page settings*/
+*{
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    background-color: rgba(218, 214, 214, 0.233);
+}
+/*HEADER*/
+.Header{
+    position: absolute;
+    height:1%;
+    width: 13%;
+    border-radius: 2px;
+    background-color:  rgba(255, 255, 255, 0.054);
+    z-index: 2;
+}
+.Logo{
+    position: absolute;
+    width: 13%;
+    z-index: 2;
+}
+.Icon1{
+    vertical-align: middle;
+    width: 22px;
+}
+.Text{
+    font-size:12px;
+    display: inline;
+}
+.Text1{
+    font-size:12px;
+    display: inline;
+}
+.Button{
+    position: relative;
+    height:8%;
+    width:7.1%;
+    border-radius: 36px;
+    background-color:rgba(81, 82, 83, 0.562);;
+    border: solid 2px rgba(81, 82, 83, 0.562);
+    color: white;
+    font-size: 15px;
+    outline:none;
+    cursor: pointer;
+}
+.Login{
+    position: absolute;
+    width: 50%;
+    margin-left: 12%;
+    top:0.5%;
+    z-index: 2;
+}
+.Download{
+    position: absolute;
+    width: 73%;
+    margin-left: 5%;
+    top:0.2%;
+    z-index: 2;
+    
+}
+
+/*---------------------------------------------------------------*/
+/*Imageslider/imagetext*/
+
+.Slides{
+    position: absolute;
+    display: flex;
+    height:100%;
+    width: 100%;
+    background-size: cover;
+   
+}
+.SliderText{
+ position: absolute;
+ top:45%;
+ left:50%;
+ border-radius: 36px;
+ width: 50%;
+ height:20%;
+ background-color: #7878788e;
+ border: solid 2px #7878788e; 
+
+}
+.Title{
+    position: absolute;
+    color: white;
+    left:19px;
+    height: 100%;
+}
+.Title h1 {
+    font-size: 30px;
+}  
+.Title p{
+    font-size: 19px;
+} 
+.TitleButton{
+    position:absolute;
+    top:140px;
+}
+.button2{
+    position: absolute;
+    Top: 67%;
+    left: 89.3%;
+    width: 9%;
+    height: 15%;
+    outline: none;
+}
+.button1{
+ width: 100%;
+ height: 50%;
+ border-radius: 19px;
+ background-color: #7878788e;
+ border: solid 2px #7878788e;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ font-size:17px;
+ outline:none;
+ cursor: pointer;
+}
+/*---------------------------------------------------------------*/
+/*Menu*/
+.main{
+    position: absolute;
+    top:100%;
+    left: 20%;
+    height:150%;
+    width: 60%;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+nav{
+    position: absolute;
+    border: solid rgb(0, 0, 0) 1.5px;
+    height: 9%;
+    width: 100%;
+    bottom: 91%;
+    background-color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-top: 1%;
+    width: 100%;
+  }
+  .nav-links li{
+     list-style: none;
+  
+  }
+  .nav-links a{
+      text-decoration: none;
+      letter-spacing: 3px;
+      font-size: 30px;
+      color: black;
+  }
+  .nav-links a:hover{
+      display:inline-block;
+      background:rgba(207, 207, 207, 0.411);
+      border-radius: 10px;
+      
+  }
+  .burger{
+      display: none;
+      cursor: pointer;
+  }
+  
+  .burger div{
+      width:15px;
+      height:3px;
+       background-color: #7878788e;
+      margin: 5px;
+      transition: all 0.3s ease;
+  }
+/*---------------------------------------------------------------*/
+.WhatWeDo{
+   position: flex;
+}
+.WhatWeDo h5{
+    position: absolute;
+    top:20%;
+    font-size:25px;
+    left: 12%;
+}
+.omschrijving{
+    position: absolute;
+    width: 50%;
+    top:27%;
+    font-size: 18px;
+    left: 12%;
+}
+.omschrijving p{
+    font-size:18px;
+}
+.image{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 27%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.315);
+}
+/*---------------------------------------------------------------*/
+/*The APP part*/
+.TheApp{
+    display: flex;
+}
+.TheApp h5{
+    position: absolute;
+    top:60%;
+    font-size:25px;
+    right:49%;
+}
+.omschrijving1{
+    position: absolute;
+    width:40%;
+    top:67%;
+    right:17.5%;
+}
+.omschrijving1 p{
+    font-size:18px;
+}
+.image1{
+    position: absolute;
+    display: flex;
+    top: 60%;
+    right: 63%;
+    width: auto;
+    height: 27%;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px 5px rgba(0, 0, 0, 0.315);
+}
+.Button3{
+    top: 65%;
+    background-color: rgba(81, 82, 83, 0.562);
+    border: solid 2px  rgba(81, 82, 83, 0.562);
+    width: 30%;
+    height: 32%;
+    color: 	white;
+    font-size: 20px;
+    border-radius: 30px;
+    opacity: 20px;
+    outline: none;
+    cursor: pointer;
+}
+/*Footer*/
+.footer{
+    position: absolute;
+    width: 100%;
+    top:277%;
+    height:25%;
+    background-color: rgba(46, 46, 46, 0.527);
+}
+.lijst1{
+position: absolute;
+left: 20%;
+text-decoration:none 
+}
+.lijst1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.lijst1 p{
+    text-decoration: none;
+    font-size: 9px;
+}
+.lijst2{
+    position: absolute;
+    left: 35%;
+}
+.lijst2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.lijst2 p{
+        text-decoration: none;
+        font-size: 9px;
+       
+    }
+
+.lijst3{
+    position: absolute;
+    left: 55%;
+    text-decoration:none 
+}
+
+.lijst3 a{
+    color: black;
+    font-size: 15px;
+    text-decoration:none;
+}
+.lijst3 p{
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.lijst5{
+    position: absolute;
+    left: 75%; 
+}
+
+.lijst5 a{
+    color: black;
+    font-size: 15px;
+    text-decoration:none;
+   
+}
+.lijst5 p{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.facebook{
+    position: absolute;
+    left: 54%; 
+    top:70%;
+}
+
+.facebook a{
+    color: black;
+    text-decoration:none
+}
+.facebook p{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.Linkedin{
+    position: absolute;
+    left: 49.5%; 
+    top:70%;
+}
+.Linkedin a{
+    color: black;
+    text-decoration:none
+}
+.Linkedin p{
+    text-decoration: none;
+    font-size: 10px;
+}
+.instagram{
+    position: absolute;
+    left:44%; 
+    top:70%;
+}
+.instagram a{
+    color: black;
+    text-decoration:none;
+}
+.instagram p{
+    text-decoration: none;
+    font-size: 10px;
+}
+.twitter{
+    position: absolute;
+    left:40%; 
+    top:70%;
+}
+
+.twitter a{
+    color: black;
+    text-decoration:none
+}
+.twitter p{
+    text-decoration: none;
+    font-size: 10px;
+}
+.AR{
+position: absolute;
+top:90%;
+left:1%;
+font-size: 12px;
+}
+.Android{
+    position: absolute;
+    top:60%;
+    left: 95%;
+}
+.foto{
+    width: 100%;
+    border-radius: 36px;
+}

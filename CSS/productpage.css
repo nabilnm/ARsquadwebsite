@@ -1,0 +1,332 @@
+/*page settings*/
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgba(230, 227, 227, 0.459);
+}
+/*HEADER*/
+.Header{
+    position: absolute;
+    height:1%;
+    width: 13%;
+    border-radius: 2px;
+    background-color:  rgba(255, 255, 255, 0.054);
+    z-index: 2;
+}
+.Logo{
+    position: absolute;
+    width: 13%;
+    z-index: 2;
+}
+
+.Button{
+    position: relative;
+    height:8%;
+    width:9.1%;
+    border-radius: 20px;
+    background-color:rgba(81, 82, 83, 0.562);
+    border: solid 2px rgba(81, 82, 83, 0.562);
+    color: white;
+    font-size: 16px;
+    outline:none;
+    cursor: pointer;
+}
+.Login{
+    position: absolute;
+    width: 50%;
+    top:0.5%;
+    left:87%;
+}
+.Download{
+    position: absolute;
+    width: 74%;
+    top:0.5%;
+    left:93%;
+}
+/*---------------------------------------------------------------*/
+/*Menu*/
+nav{
+    position: absolute;
+    border: solid rgb(0, 0, 0) 1.5px;
+    height: 9%;
+    width: 100%;
+    bottom: 87%;
+    background-color: white;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
+  margin-top: 1%;
+  width: 100%;
+}
+.nav-links li{
+   list-style: none;
+
+}
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: black;
+}
+.nav-links a:hover{
+    display:inline-block;
+    background:rgba(207, 207, 207, 0.411);
+    border-radius: 10px;
+    
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width:15px;
+    height:3px;
+     background-color: #7878788e;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+/*---------------------------------------------------------------*/
+.main{
+    position: absolute;
+    top:13%;
+    left: 20%;
+    height:150%;
+    width: 60%;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  letter-spacing:3px;
+  text-transform: uppercase;
+}
+
+/*---------------------------------------------------------------*/
+/*TheAPP part*/
+.TheApp h5{
+    position: absolute;
+    top:15%;
+    font-size:25px;
+    left: 12%;
+}
+.omschrijving{
+    position: absolute;
+    width: 50%;
+    top:25%;
+    font-size: 18px;
+    left: 45%;
+    height: 30%;
+}
+.omschrijving p{
+    font-size:18px;
+}
+.FotoApp{
+    position: absolute;
+    width: 20%;
+    left:9%;
+    top:19%
+}
+.Button3{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    background-color: rgba(81, 82, 83, 0.562);
+    border: solid 2px  rgba(81, 82, 83, 0.562);
+    width: 30%;
+    height: 15%;
+    color: 	white;
+    font-size: 20px;
+    border-radius: 30px;
+    opacity: 20px;
+    outline: none;
+    cursor: pointer;
+}
+/*---------------------------------------------------------------*/
+/*The WebAPP part*/
+.TheWebApp{
+    position: absolute;
+    top:61%;
+    left:63%
+}
+.TheWebApp h5{
+    text-transform: uppercase;
+    font-size:25px;
+}
+.omschrijving1{
+    position: absolute;
+    width:40%;
+    top:67%;
+    left:8%;
+    height: 30%;
+}
+.omschrijving1 p{
+    font-size:18px;
+}
+
+.FotoWebAPP{
+    position: absolute;
+    width: 35%;
+    left:60%;
+    top:63%
+}
+.Button4{
+    position: absolute;
+    top:45%;
+    left: 0%;
+    background-color: rgba(81, 82, 83, 0.562);
+    border: solid 2px  rgba(81, 82, 83, 0.562);
+    width: 50%;
+    height: 13%;
+    color: 	white;
+    font-size: 20px;
+    border-radius: 30px;
+    opacity: 20px;
+    outline: none;
+    cursor: pointer;
+}
+/*Footer*/
+.footer{
+    position: absolute;
+    width: 100%;
+    top:163%;
+    height:25%;
+    background-color: rgba(46, 46, 46, 0.527);
+}
+.lijst1{
+position: absolute;
+left: 20%;
+text-decoration:none 
+}
+.lijst1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.lijst1 p{
+    text-decoration: none;
+    font-size: 9px;
+}
+.lijst2{
+    position: absolute;
+    left: 35%;
+}
+.lijst2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.lijst2 p{
+        text-decoration: none;
+        font-size: 9px;
+    }
+
+.lijst3{
+    position: absolute;
+    left: 55%;
+    text-decoration:none 
+}
+
+.lijst3 a{
+    color: black;
+    font-size: 15px;
+    text-decoration:none;
+}
+.lijst3 p{
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.lijst5{
+    position: absolute;
+    left: 75%; 
+}
+
+.lijst5 a{
+    color: black;
+    font-size: 15px;
+    text-decoration:none;
+}
+.lijst5 p{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.facebook{
+    position: absolute;
+    left: 54%; 
+    top:90%;
+}
+
+.facebook a{
+    color: black;
+    text-decoration:none
+}
+.facebook p{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.Linkedin{
+    position: absolute;
+    left: 49.5%; 
+    top:90%;
+}
+.Linkedin a{
+    color: black;
+    text-decoration:none
+}
+.Linkedin p{
+    text-decoration: none;
+    font-size: 10px;
+}
+.instagram{
+    position: absolute;
+    left:44%; 
+    top:90%;
+}
+.instagram a{
+    color: black;
+    text-decoration:none;
+}
+.instagram p{
+    text-decoration: none;
+    font-size: 10px;
+}
+.twitter{
+    position: absolute;
+    left:40%; 
+    top:90%;
+}
+
+.twitter a{
+    color: black;
+    text-decoration:none
+}
+.twitter p{
+    text-decoration: none;
+    font-size: 10px;
+}
+.AR{
+position: absolute;
+top:90%;
+left:1%;
+font-size: 12px;
+}
+.Android{
+    position: absolute;
+    top:73%;
+    left: 95%;
+}
+.foto{
+    width: 100%;
+    border-radius: 36px;
+}
